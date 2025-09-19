@@ -1,48 +1,56 @@
-In this project, let's fix the **Counter** by applying the concepts we have learned till now.
+# 👤 React User Profile Cards
 
-### Refer to the image below:
+This project is a dynamic user profile viewer built with React. It showcases fundamental React concepts by fetching user data from a live API and displaying it in a clean, modern card layout. This application was developed as part of a technical assignment to demonstrate core proficiency in React, including state management, API integration, and component-based architecture.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/counter-output.gif" alt="counter-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
 
-### Set Up Instructions
 
-<details>
-<summary>Click to view</summary>
+---
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+## ✨ Key Features
 
-### Completion Instructions
+* **Dynamic Data Fetching**: On page load, the app asynchronously fetches data for 10 users from the [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) REST API.
+* **Unique Avatars**: Generates a unique and friendly avatar for each user by making a dynamic request to the [DiceBear Avatars](https://avatars.dicebear.com/) API based on their username.
+* **Loading State**: Implements conditional rendering to display a sleek loading spinner while fetching data, ensuring a smooth user experience.
+* **Component-Based Structure**: The UI is broken down into reusable components, highlighting an understanding of React's core architecture.
+* **Styled with Bootstrap**: The layout is fully responsive and styled using Bootstrap for a clean and professional look.
 
-<details>
-<summary>Functionality to be fixed</summary>
-<br/>
+---
 
-Fix the given code to have the following functionality
+## ⚙️ Tech Stack
 
-- Initially, the count should be `0`
-- When the **Increase** button is clicked, then the count should be incremented by one
-- When the **Decrease** button is clicked, then the count should be decremented by one
-</details>
+* **React.js**: Core library for building the user interface.
+* **Create React App**: For project setup and configuration.
+* **JSX**: To write UI components.
+* **Fetch API**: For making network requests to get user data.
+* **Bootstrap**: For styling and grid layout.
 
-### Quick Tips
+---
 
-<details>
-<summary>Click to view</summary>
-<br>
+## 🚀 Getting Started
 
-- There are `7` bugs to be fixed to achieve the functionality and the UI that is expected
+To get a local copy up and running, follow these simple steps.
 
-</details>
+### Prerequisites
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation & Setup
+
+1.  Clone the repository to your local machine.
+    ```sh
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+2.  Navigate into the project directory.
+    ```sh
+    cd your-repo-name
+    ```
+3.  Install the required NPM packages.
+    ```sh
+    npm install
+    ```
+4.  Run the app in development mode.
+    ```sh
+    npm start
+    ```
+
+Open [https://reactbaseas.ccbp.tech/] to view it in your browser.
