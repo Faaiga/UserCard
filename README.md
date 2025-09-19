@@ -9,7 +9,6 @@ This project is a dynamic user profile viewer built with React. It showcases fun
 ## ✨ Key Features
 
 * **Dynamic Data Fetching**: On page load, the app asynchronously fetches data for 10 users from the [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) REST API.
-* **Unique Avatars**: Generates a unique and friendly avatar for each user by making a dynamic request to the [DiceBear Avatars](https://avatars.dicebear.com/) API based on their username.
 * **Loading State**: Implements conditional rendering to display a sleek loading spinner while fetching data, ensuring a smooth user experience.
 * **Component-Based Structure**: The UI is broken down into reusable components, highlighting an understanding of React's core architecture.
 * **Styled with Bootstrap**: The layout is fully responsive and styled using Bootstrap for a clean and professional look.
